@@ -1,0 +1,132 @@
+ /* learn more button size */
+.learn-more-btn{
+    height: 38px;
+    width: 129px;
+}
+
+/* adjest service section image */
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+    .computer-icon img{
+        width: 346px !important;
+        height: 346px !important;
+    }
+
+    .search-icon img{
+        width: 346px !important;
+        height: 348px !important;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .computer-icon img{
+        width: 275px !important;
+        height: 275px !important;
+    }
+
+    .search-icon img {
+        max-width: 275px !important;
+        max-height: 276px !important;
+    }
+}
+
+
+/* services section media queries */
+
+/* desktop Layout */
+@media (min-width: 721px) {
+  .services-section .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .services-section .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .services-section .row:first-child .computer-icon {
+    text-align: left;
+  }
+  
+  .services-section .row:first-child .computer-icon img {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .services-section .row:last-child .search-icon {
+    text-align: right;
+  }
+  
+  .services-section .row:last-child .search-icon img {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+
+  .services-section .row:last-child .col-lg-6:first-child {
+    order: 2;
+  }
+  
+  .services-section .row:last-child .col-lg-6:last-child {
+    order: 1;
+  }
+}
+
+/* Mobile Layout */
+@media (max-width: 720px) {
+  .services-section .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .services-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .services-section .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  /* ordering for mobile */
+  .services-section .order-lg-1,
+  .services-section .order-lg-2 {
+    order: 0;
+  }
+  
+  /* Center all icons on mobile */
+  .services-section .computer-icon,
+  .services-section .search-icon {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .services-section .computer-icon img,
+  .services-section .search-icon img {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Center text content in mobile */
+  .services-section h2,
+  .services-section p {
+    text-align: center;
+  }
+  
+  .services-section .row:last-child .col-lg-6:first-child {
+    order: 1;
+  }
+  
+  .services-section .row:last-child .col-lg-6:last-child {
+    order: 2;
+  }
+
+  .container-fluid h1{
+    font-size: 38px !important;
+  }
+}
+
+

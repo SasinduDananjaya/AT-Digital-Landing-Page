@@ -3,7 +3,7 @@
 
 ## 🚀 Vercel Live Demo 
 ```bash
-  https://at-digital-landing-page-o0zw0xccr-sasindu-gunawardanas-projects.vercel.app/
+  https://at-digital-landing-page-lsuoqo2u6-sasindu-gunawardanas-projects.vercel.app/
 ```
 
 ## 📂 Repository

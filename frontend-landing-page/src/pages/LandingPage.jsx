@@ -31,10 +31,9 @@ const LandingPage = () => {
                   <div className="p-4 mb-4" style={{ 
                     background: 'linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%)',
                     maxWidth: '630px',
-                    position: 'absolute',
-                    top: '50%',
-                    left: '5%',
-                    marginBottom: '20px',
+                    marginTop: '60vh',
+                    left: 'auto',
+                    position: 'relative',
                   }}>
                     <h1 className="display-4 fw-bold mb-3" style={{ fontSize: '48px', lineHeight: '1.2' }}>
                       We Crush Your Competitors, Goals, And Sales Records - Without The B.S.

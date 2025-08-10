@@ -32,7 +32,7 @@ const LandingPage = () => {
                     background: 'linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%)',
                     maxWidth: '630px',
                     position: 'absolute',
-                    top: '60vh',
+                    top: '50%',
                     left: '5%',
                     marginBottom: '20px',
                   }}>
